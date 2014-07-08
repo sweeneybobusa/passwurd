@@ -1,0 +1,18 @@
+body {
+	font: 1em Arial, Helvetica, Geneva, sans-serif;
+	line-height: 1.5em;
+	color: #0a196e;
+	padding: 0;
+	background: url(../images/indigo.png) repeat #75a3dc;
+	margin: 0;
+}
+.content {
+	width: 400px;
+	padding: 3rem;
+	background-color: #fff;
+	margin: 6em;
+}
+
+h1 {
+	font: bold 1.5em/2em;
+}
