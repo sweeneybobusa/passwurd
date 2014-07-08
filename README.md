@@ -1,5 +1,9 @@
 # Here's P2 Password Generator
 
-It's still a bit buggy but I got most of the functionality to work. I had a hard time getting the passed files to populate. In the password generator, I couldn't figure out how to delete the blank spaces and the special symbols to show up. would I need to make them html entities? and is it the line breaks that might cause the extra space? One other thing I wanted to do was to use a term file where I had a word, it's translation, and the word used in a sentence, but I ran out of time trying to figure out how to get them to work. I figured I could use a csv file and have it fill an array but didn't see how I could get it all to fill in one array.
+Here's my attempt at making a redneck name passwurd gen'rater. 
 
-In the end I just wanted to get it working and simplified. It was amazing how much time it took me to get the name file (and formatting the other file that I didn't use). Lesson learned: keep it simple and add on later. 
+It's still a bit buggy but I got most of the functionality to work. I had a hard time getting the $_GET variables passed to the php, I'm sure there's a more elegant way of makeing it work. In the password generator, I couldn't figure out how to delete the blank spaces that were being added (are they being added by line breaks in the file?) and getting the symbols to appear (would I need to make them html entities?).
+
+My original thought was to create the password using southern 'wurds" and have a translation, and it used in a sentence below but I couldn't figure out how to get the variable goign with three associated values. I rekoned I could use a csv file to create the array but as it turned out I ran out of time to try this. 
+
+In the end I just wanted to get it working and simplified my approach. It was amazing how much time it took me to get the name file (and formatting the other file that I didn't use). Lesson learned: keep it simple and add on later. 
